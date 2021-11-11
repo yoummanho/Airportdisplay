@@ -1410,103 +1410,49 @@ MonoBehaviour:
     frondRotation: 0
     frondCrease: 0
   leafGroups:
-  - _uniqueID: 31
-    seed: 1234
-    _internalSeed: 1548662
+  - _uniqueID: 0
+    seed: 0
+    _internalSeed: 0
     m_Hash: 
-    distributionFrequency: 15
+    distributionFrequency: 0
     distributionMode: 0
     distributionCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0.07083333
-        value: 0.08125
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: 0.6625
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    distributionNodes: 5
+      m_Curve: []
+      m_PreInfinity: 0
+      m_PostInfinity: 0
+      m_RotationOrder: 0
+    distributionNodes: 0
     distributionTwirl: 0
-    distributionPitch: 0.587
+    distributionPitch: 0
     distributionPitchCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    distributionScale: 0.775
+      m_Curve: []
+      m_PreInfinity: 0
+      m_PostInfinity: 0
+      m_RotationOrder: 0
+    distributionScale: 0
     distributionScaleCurve:
       serializedVersion: 2
-      m_Curve:
-      - serializedVersion: 3
-        time: 0
-        value: 1
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      - serializedVersion: 3
-        time: 1
-        value: 0.3
-        inSlope: 0
-        outSlope: 0
-        tangentMode: 0
-        weightedMode: 0
-        inWeight: 0.33333334
-        outWeight: 0.33333334
-      m_PreInfinity: 2
-      m_PostInfinity: 2
-      m_RotationOrder: 4
-    showAnimationProps: 1
-    animationPrimary: 0.5
-    animationSecondary: 0.5
-    animationEdge: 1
-    visible: 1
+      m_Curve: []
+      m_PreInfinity: 0
+      m_PostInfinity: 0
+      m_RotationOrder: 0
+    showAnimationProps: 0
+    animationPrimary: 0
+    animationSecondary: 0
+    animationEdge: 0
+    visible: 0
     lockFlags: 0
-    nodeIDs: 200000002100000022000000230000002400000025000000260000002700000028000000290000002a0000002b0000002c0000002d0000002e0000002f000000300000003100000032000000330000003400000035000000360000003700000038000000390000003a0000003b0000003c0000003d0000003e0000003f000000400000004100000042000000430000004400000045000000460000004700000048000000490000004a0000004b0000004c0000004d0000004e0000004f000000500000005100000052000000530000005400000055000000560000005700000058000000590000005a0000005b0000005c0000005d0000005e0000005f000000600000006100000062000000630000006400000065000000660000006700000068000000690000006a0000006b0000006c0000006d0000006e0000006f000000700000007100000072000000730000007400000075000000960000009700000098000000990000009a0000009b0000009c0000009d0000009e0000009f000000a0000000a1000000a2000000a3000000f2020000f3020000f4020000f5020000f6020000f8020000f9020000fa020000fb020000ff020000000300000103000002030000030300000403000005030000060300000703000008030000090300000a0300000b0300000c0300000d0300000e0300000f030000100300001103000012030000130300001403000088130000891300008a1300008b1300008c1300008d1300008e1300008f130000901300009113000092130000931300009413000095130000961300009713000098130000991300009a1300009b1300009c1300009d1300009e1300009f130000a0130000
-    parentGroupID: 5
+    nodeIDs: 
+    parentGroupID: 0
     childGroupIDs: 
-    geometryMode: 1
-    materialLeaf: {fileID: 2100000, guid: d4d7f49b9b732ca4584a061ff1e07bac, type: 2}
+    geometryMode: 0
+    materialLeaf: {fileID: 0}
     instanceMesh: {fileID: 0}
-    size: {x: 1.0288888, y: 1.2822222}
-    perpendicularAlign: 0.662
-    horizontalAlign: 0.32
+    size: {x: 0, y: 0}
+    perpendicularAlign: 0
+    horizontalAlign: 0
   nodes:
   - spline:
       nodes: []
@@ -10219,6 +10165,6 @@ MonoBehaviour:
     groupID: 31
     _uniqueID: 5024
   mesh: {fileID: 43621386246375690}
-  optimizedSolidMaterial: {fileID: 21648112510401256}
-  optimizedCutoutMaterial: {fileID: 21440639111565978}
+  optimizedSolidMaterial: {fileID: 2100000, guid: 8cc04fc55b6840c469cf69ad7b588f9f, type: 2}
+  optimizedCutoutMaterial: {fileID: 2100000, guid: f8c7878e4efb30e44867fabac809f097, type: 2}
   isInPreviewMode: 0

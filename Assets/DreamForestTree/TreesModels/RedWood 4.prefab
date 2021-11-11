@@ -17628,6 +17628,6 @@ MonoBehaviour:
     groupID: 1658
     _uniqueID: 4096
   mesh: {fileID: 43621386246375690}
-  optimizedSolidMaterial: {fileID: 21648112510401256}
-  optimizedCutoutMaterial: {fileID: 21440639111565978}
+  optimizedSolidMaterial: {fileID: 2100000, guid: 8cc04fc55b6840c469cf69ad7b588f9f, type: 2}
+  optimizedCutoutMaterial: {fileID: 2100000, guid: f8c7878e4efb30e44867fabac809f097, type: 2}
   isInPreviewMode: 0
