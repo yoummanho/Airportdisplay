@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2700457601204117230}
+  - component: {fileID: 8445813442826338179}
   m_Layer: 0
   m_Name: CamomileFlower
   m_TagString: Untagged
@@ -33,6 +34,33 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!205 &8445813442826338179
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2700457601204117217}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 0.19883718, z: 0}
+  m_Size: 0.40313682
+  m_FadeMode: 1
+  m_AnimateCrossFading: 1
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.21694286
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 3654783525891043646}
+  - screenRelativeHeight: 0.09696733
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 3654783526340341323}
+  - screenRelativeHeight: 0.015210627
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 4046123061317996044}
+  m_Enabled: 0
 --- !u!1001 &2700457599426736847
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -99,6 +127,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: edd9b90ab7b228c40b6e41bcb970173c, type: 3}
   m_PrefabInstance: {fileID: 2700457599426736847}
   m_PrefabAsset: {fileID: 0}
+--- !u!23 &3654783526340341323 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: edd9b90ab7b228c40b6e41bcb970173c, type: 3}
+  m_PrefabInstance: {fileID: 2700457599426736847}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2700457601108143546
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -161,6 +194,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 1b7478a98e3596c4d90565558340774d, type: 3}
   m_PrefabInstance: {fileID: 2700457601108143546}
   m_PrefabAsset: {fileID: 0}
+--- !u!23 &3654783525891043646 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 1b7478a98e3596c4d90565558340774d, type: 3}
+  m_PrefabInstance: {fileID: 2700457601108143546}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3451765974028685960
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -221,5 +259,10 @@ PrefabInstance:
 --- !u!4 &2913155645601477987 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: cef900381ba1f07489f3c57d036e24ce, type: 3}
+  m_PrefabInstance: {fileID: 3451765974028685960}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &4046123061317996044 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: cef900381ba1f07489f3c57d036e24ce, type: 3}
   m_PrefabInstance: {fileID: 3451765974028685960}
   m_PrefabAsset: {fileID: 0}

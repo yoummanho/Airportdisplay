@@ -91,6 +91,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7239159281117816746}
+  - component: {fileID: 4764208896463767674}
   m_Layer: 0
   m_Name: Ear
   m_TagString: Untagged
@@ -115,6 +116,33 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!205 &4764208896463767674
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3626492338799228592}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 0.3944473, z: 0}
+  m_Size: 1.0534372
+  m_FadeMode: 1
+  m_AnimateCrossFading: 1
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.19522314
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 1384285257211899357}
+  - screenRelativeHeight: 0.053485718
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 7357036955560260082}
+  - screenRelativeHeight: 0.010827283
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 6758233392927702258}
+  m_Enabled: 0
 --- !u!1 &5101150141735034151
 GameObject:
   m_ObjectHideFlags: 0

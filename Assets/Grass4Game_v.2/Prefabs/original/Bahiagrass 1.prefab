@@ -9,6 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3428251071687050442}
+  - component: {fileID: 690188280449121158}
   m_Layer: 0
   m_Name: Bahiagrass
   m_TagString: Untagged
@@ -33,6 +34,33 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!205 &690188280449121158
+LODGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 636192146541336390}
+  serializedVersion: 2
+  m_LocalReferencePoint: {x: 0, y: 0.25845224, z: 0.011541888}
+  m_Size: 0.54346955
+  m_FadeMode: 1
+  m_AnimateCrossFading: 1
+  m_LastLODIsBillboard: 0
+  m_LODs:
+  - screenRelativeHeight: 0.20233642
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 2832885213700246853}
+  - screenRelativeHeight: 0.07509988
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 774690859690549535}
+  - screenRelativeHeight: 0.012621429
+    fadeTransitionWidth: 0
+    renderers:
+    - renderer: {fileID: 290757332126665476}
+  m_Enabled: 0
 --- !u!1001 &1425793769665632128
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -93,6 +121,11 @@ PrefabInstance:
 --- !u!4 &1460246671402201195 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 62d4cd2e6c25ac248bbfddf7f8e26476, type: 3}
+  m_PrefabInstance: {fileID: 1425793769665632128}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &290757332126665476 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 62d4cd2e6c25ac248bbfddf7f8e26476, type: 3}
   m_PrefabInstance: {fileID: 1425793769665632128}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &2090185462856187291
@@ -161,6 +194,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6739120f8d177e0459dcd8d328181d3c, type: 3}
   m_PrefabInstance: {fileID: 2090185462856187291}
   m_PrefabAsset: {fileID: 0}
+--- !u!23 &774690859690549535 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 6739120f8d177e0459dcd8d328181d3c, type: 3}
+  m_PrefabInstance: {fileID: 2090185462856187291}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &3499855146268873153
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -221,5 +259,10 @@ PrefabInstance:
 --- !u!4 &3970840936506766890 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c4b7fcd3bee6b4542aec7bc7daa2365a, type: 3}
+  m_PrefabInstance: {fileID: 3499855146268873153}
+  m_PrefabAsset: {fileID: 0}
+--- !u!23 &2832885213700246853 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: c4b7fcd3bee6b4542aec7bc7daa2365a, type: 3}
   m_PrefabInstance: {fileID: 3499855146268873153}
   m_PrefabAsset: {fileID: 0}
