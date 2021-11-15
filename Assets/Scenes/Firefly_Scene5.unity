@@ -961,7 +961,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 2147483647
   volumeAnchorOverride: {fileID: 0}
-  antialiasing: 0
+  antialiasing: 1
   SMAAQuality: 2
   dithering: 0
   stopNaNs: 0
@@ -2383,6 +2383,14 @@ PrefabInstance:
       propertyPath: InitialModule.startSize.scalar
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 984907191, guid: 23b172930c6c2be47bd1532014b59a1c, type: 3}
+      propertyPath: m_SortMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 984938224, guid: 23b172930c6c2be47bd1532014b59a1c, type: 3}
+      propertyPath: m_SortMode
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 984938225, guid: 23b172930c6c2be47bd1532014b59a1c, type: 3}
       propertyPath: lengthInSec
       value: 5
@@ -2413,7 +2421,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1888999025, guid: 23b172930c6c2be47bd1532014b59a1c, type: 3}
       propertyPath: m_Range
-      value: 400
+      value: 350
       objectReference: {fileID: 0}
     - target: {fileID: 1888999025, guid: 23b172930c6c2be47bd1532014b59a1c, type: 3}
       propertyPath: m_Color.b
@@ -6665,6 +6673,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7592556313015275664, guid: d6a366445bfbf704da402a38555d9112, type: 3}
+      propertyPath: autoRandomSeed
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7592556313015275664, guid: d6a366445bfbf704da402a38555d9112, type: 3}
       propertyPath: LightsModule.light
       value: 
       objectReference: {fileID: 1668246633}
@@ -6678,7 +6690,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7592556313015275664, guid: d6a366445bfbf704da402a38555d9112, type: 3}
       propertyPath: NoiseModule.frequency
-      value: 1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 7592556313015275664, guid: d6a366445bfbf704da402a38555d9112, type: 3}
       propertyPath: ShapeModule.m_Scale.x
@@ -6733,11 +6745,39 @@ PrefabInstance:
       value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7592556313015275664, guid: d6a366445bfbf704da402a38555d9112, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.2840868
+      objectReference: {fileID: 0}
+    - target: {fileID: 7592556313015275664, guid: d6a366445bfbf704da402a38555d9112, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.990566
+      objectReference: {fileID: 0}
+    - target: {fileID: 7592556313015275664, guid: d6a366445bfbf704da402a38555d9112, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.r
+      value: 0.640398
+      objectReference: {fileID: 0}
+    - target: {fileID: 7592556313015275664, guid: d6a366445bfbf704da402a38555d9112, type: 3}
+      propertyPath: InitialModule.startColor.minColor.b
+      value: 0.17265925
+      objectReference: {fileID: 0}
+    - target: {fileID: 7592556313015275664, guid: d6a366445bfbf704da402a38555d9112, type: 3}
+      propertyPath: InitialModule.startColor.minColor.g
+      value: 0.8883435
+      objectReference: {fileID: 0}
+    - target: {fileID: 7592556313015275664, guid: d6a366445bfbf704da402a38555d9112, type: 3}
+      propertyPath: InitialModule.startColor.minColor.r
+      value: 0.9433962
+      objectReference: {fileID: 0}
+    - target: {fileID: 7592556313015275664, guid: d6a366445bfbf704da402a38555d9112, type: 3}
       propertyPath: InitialModule.gravityModifier.scalar
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 7592556313015275664, guid: d6a366445bfbf704da402a38555d9112, type: 3}
       propertyPath: InitialModule.startLifetime.minScalar
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7592556313015275664, guid: d6a366445bfbf704da402a38555d9112, type: 3}
+      propertyPath: ClampVelocityModule.magnitude.minScalar
       value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7592556313015275664, guid: d6a366445bfbf704da402a38555d9112, type: 3}
@@ -7902,11 +7942,11 @@ Light:
   m_RenderingLayerMask: 1
   m_Lightmapping: 4
   m_LightShadowCasterMode: 2
-  m_AreaSize: {x: 1, y: 1}
+  m_AreaSize: {x: 0.5, y: 0.5}
   m_BounceIntensity: 1
-  m_ColorTemperature: 6570
+  m_ColorTemperature: 5938
   m_UseColorTemperature: 1
-  m_BoundingSphereOverride: {x: 1.3563156e-19, y: NaN, z: 3.0972774e+27, w: 4.5447946e+30}
+  m_BoundingSphereOverride: {x: 0, y: NaN, z: -2.306054e+18, w: 2.1175824e-22}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
   m_ShadowRadius: 0
@@ -9219,7 +9259,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!182 &2106961930
 WindZone:
   m_ObjectHideFlags: 0
