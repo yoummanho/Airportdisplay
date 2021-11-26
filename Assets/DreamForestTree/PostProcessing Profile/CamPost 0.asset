@@ -17,7 +17,7 @@ MonoBehaviour:
     m_Settings:
       mode: 0
       depth:
-        scale: 1
+        scale: 0.95
       motionVectors:
         sourceOpacity: 1
         motionImageOpacity: 0
@@ -26,7 +26,7 @@ MonoBehaviour:
         motionVectorsResolution: 24
         motionVectorsAmplitude: 64
   fog:
-    m_Enabled: 1
+    m_Enabled: 0
     m_Settings:
       excludeSkybox: 0
   antialiasing:
@@ -72,11 +72,11 @@ MonoBehaviour:
   depthOfField:
     m_Enabled: 1
     m_Settings:
-      focusDistance: 11.48
-      aperture: 8.3
-      focalLength: 45
-      useCameraFov: 0
-      kernelSize: 1
+      focusDistance: 1
+      aperture: 12.8
+      focalLength: 120
+      useCameraFov: 1
+      kernelSize: 2
   motionBlur:
     m_Enabled: 0
     m_Settings:
