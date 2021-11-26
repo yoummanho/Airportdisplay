@@ -13,70 +13,6 @@ MonoBehaviour:
   m_Name: PrefabPalette-Default
   m_EditorClassIdentifier: 
   prefabs:
-  - gameObject: {fileID: 636192146541336390, guid: 9999125e3259a384889b47b1f9a2444d, type: 3}
-    settings:
-      m_Strength: 36.357143
-      m_RotationRangeMin: {x: 0, y: 0, z: 0}
-      m_RotationRangeMax: {x: 0, y: 0, z: 0}
-      m_ScaleRangeMin: {x: 1.380597, y: 1, z: 1}
-      m_ScaleRangeMax: {x: 1.380597, y: 1, z: 1}
-      m_UniformScale: {x: 10, y: 20}
-      m_UniformBool: 1
-      m_XRotationBool: 0
-      m_YRotationBool: 0
-      m_ZRotationBool: 0
-      m_XScaleBool: 0
-      m_YScaleBool: 0
-      m_ZScaleBool: 0
-    name: Bahiagrass
-  - gameObject: {fileID: 2700457601204117217, guid: 9a4d614d4cb9d864ebd608a95175de13, type: 3}
-    settings:
-      m_Strength: 49.489796
-      m_RotationRangeMin: {x: 0, y: 0, z: 0}
-      m_RotationRangeMax: {x: 0, y: 0, z: 0}
-      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
-      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
-      m_UniformScale: {x: 20, y: 30}
-      m_UniformBool: 1
-      m_XRotationBool: 0
-      m_YRotationBool: 0
-      m_ZRotationBool: 0
-      m_XScaleBool: 0
-      m_YScaleBool: 0
-      m_ZScaleBool: 0
-    name: CamomileFlower
-  - gameObject: {fileID: 1440278215593560298, guid: cde985fff5f039645a08325a6f6e4659, type: 3}
-    settings:
-      m_Strength: 100
-      m_RotationRangeMin: {x: 0, y: 0, z: 0}
-      m_RotationRangeMax: {x: 0, y: 0, z: 0}
-      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
-      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
-      m_UniformScale: {x: 1, y: 20}
-      m_UniformBool: 1
-      m_XRotationBool: 0
-      m_YRotationBool: 0
-      m_ZRotationBool: 0
-      m_XScaleBool: 0
-      m_YScaleBool: 0
-      m_ZScaleBool: 0
-    name: Chicory
-  - gameObject: {fileID: 3914478120934801527, guid: 73d0692b78da7bb45b712ed8792b7288, type: 3}
-    settings:
-      m_Strength: 100
-      m_RotationRangeMin: {x: 0, y: 0, z: 0}
-      m_RotationRangeMax: {x: 0, y: 0, z: 0}
-      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
-      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
-      m_UniformScale: {x: 10, y: 20}
-      m_UniformBool: 1
-      m_XRotationBool: 0
-      m_YRotationBool: 0
-      m_ZRotationBool: 0
-      m_XScaleBool: 0
-      m_YScaleBool: 0
-      m_ZScaleBool: 0
-    name: Clovers
   - gameObject: {fileID: 290496374753864624, guid: cb0290d6c2fceb34da85434fde032d27, type: 3}
     settings:
       m_Strength: 100
@@ -109,38 +45,6 @@ MonoBehaviour:
       m_YScaleBool: 0
       m_ZScaleBool: 0
     name: Ear
-  - gameObject: {fileID: 5295538064297268642, guid: 1e819b9a0081f5d408048bdbcbd25c9d, type: 3}
-    settings:
-      m_Strength: 96.96938
-      m_RotationRangeMin: {x: 0, y: 0, z: 0}
-      m_RotationRangeMax: {x: 0, y: 0, z: 0}
-      m_ScaleRangeMin: {x: 20, y: 20, z: 20}
-      m_ScaleRangeMax: {x: 30, y: 40, z: 30}
-      m_UniformScale: {x: 15, y: 30}
-      m_UniformBool: 0
-      m_XRotationBool: 0
-      m_YRotationBool: 0
-      m_ZRotationBool: 0
-      m_XScaleBool: 0
-      m_YScaleBool: 0
-      m_ZScaleBool: 0
-    name: Kentucky
-  - gameObject: {fileID: 1100958124012649791, guid: 9fc450dbf8d589c4faebc2c292993d1d, type: 3}
-    settings:
-      m_Strength: 45.448982
-      m_RotationRangeMin: {x: 0, y: 0, z: 0}
-      m_RotationRangeMax: {x: 0, y: 0, z: 0}
-      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
-      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
-      m_UniformScale: {x: 20, y: 30}
-      m_UniformBool: 1
-      m_XRotationBool: 0
-      m_YRotationBool: 0
-      m_ZRotationBool: 0
-      m_XScaleBool: 0
-      m_YScaleBool: 0
-      m_ZScaleBool: 0
-    name: Lamium
   - gameObject: {fileID: 4124183919515401716, guid: 9bb4ac498b07a9543836ce30788d8053, type: 3}
     settings:
       m_Strength: 73.734695

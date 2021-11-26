@@ -88,9 +88,9 @@
       }
     },
     "com.unity.render-pipelines.high-definition-config": {
-      "version": "file:E:\\Work\\outsourcing\\Airportdisplay\\LocalPackages\\com.unity.render-pipelines.high-definition-config",
+      "version": "11.0.0",
       "depth": 0,
-      "source": "local",
+      "source": "builtin",
       "dependencies": {
         "com.unity.render-pipelines.core": "11.0.0"
       }
