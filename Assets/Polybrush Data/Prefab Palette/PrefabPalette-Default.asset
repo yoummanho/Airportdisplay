@@ -79,7 +79,7 @@ MonoBehaviour:
     name: Clovers
   - gameObject: {fileID: 290496374753864624, guid: cb0290d6c2fceb34da85434fde032d27, type: 3}
     settings:
-      m_Strength: 100
+      m_Strength: 31.2
       m_RotationRangeMin: {x: 0, y: 0, z: 0}
       m_RotationRangeMax: {x: 0, y: 0, z: 0}
       m_ScaleRangeMin: {x: 1, y: 1, z: 1}
@@ -143,12 +143,12 @@ MonoBehaviour:
     name: Lamium
   - gameObject: {fileID: 4124183919515401716, guid: 9bb4ac498b07a9543836ce30788d8053, type: 3}
     settings:
-      m_Strength: 73.734695
+      m_Strength: 100
       m_RotationRangeMin: {x: 0, y: 0, z: 0}
       m_RotationRangeMax: {x: 0, y: 0, z: 0}
       m_ScaleRangeMin: {x: 1, y: 1, z: 1}
       m_ScaleRangeMax: {x: 1, y: 1, z: 1}
-      m_UniformScale: {x: 1, y: 1}
+      m_UniformScale: {x: 1, y: 2.4444444}
       m_UniformBool: 1
       m_XRotationBool: 0
       m_YRotationBool: 0
@@ -173,3 +173,99 @@ MonoBehaviour:
       m_YScaleBool: 0
       m_ZScaleBool: 0
     name: nQuad-Plane
+  - gameObject: {fileID: 1884947708096976, guid: 44e59a14d306b0843bf6f7b2385453d8, type: 3}
+    settings:
+      m_Strength: 55
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 0, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
+      m_UniformScale: {x: 50, y: 80}
+      m_UniformBool: 1
+      m_XRotationBool: 0
+      m_YRotationBool: 0
+      m_ZRotationBool: 0
+      m_XScaleBool: 0
+      m_YScaleBool: 0
+      m_ZScaleBool: 0
+    name: Bamboo Forest Group
+  - gameObject: {fileID: 1346510464216014, guid: 4f819a92a9a9bd0498f043c0a601504a, type: 3}
+    settings:
+      m_Strength: 50
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 0, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
+      m_UniformScale: {x: 800, y: 900}
+      m_UniformBool: 1
+      m_XRotationBool: 0
+      m_YRotationBool: 0
+      m_ZRotationBool: 0
+      m_XScaleBool: 0
+      m_YScaleBool: 0
+      m_ZScaleBool: 0
+    name: Bamboo Tiny Group
+  - gameObject: {fileID: 1973023435162204, guid: c8402cfc9573df24f882c81b4e607630, type: 3}
+    settings:
+      m_Strength: 50
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 0, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
+      m_UniformScale: {x: 500, y: 600}
+      m_UniformBool: 1
+      m_XRotationBool: 0
+      m_YRotationBool: 0
+      m_ZRotationBool: 0
+      m_XScaleBool: 0
+      m_YScaleBool: 0
+      m_ZScaleBool: 0
+    name: Bamboo Small Group
+  - gameObject: {fileID: 1772539032536490, guid: 7b7ef7eb204180d4b854631003724416, type: 3}
+    settings:
+      m_Strength: 50
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 0, z: 0}
+      m_ScaleRangeMin: {x: 100, y: 600, z: 100}
+      m_ScaleRangeMax: {x: 120, y: 800, z: 120}
+      m_UniformScale: {x: 100, y: 150}
+      m_UniformBool: 0
+      m_XRotationBool: 0
+      m_YRotationBool: 0
+      m_ZRotationBool: 0
+      m_XScaleBool: 1
+      m_YScaleBool: 1
+      m_ZScaleBool: 1
+    name: Bamboo Medium Group
+  - gameObject: {fileID: 1884947708096976, guid: 44e59a14d306b0843bf6f7b2385453d8, type: 3}
+    settings:
+      m_Strength: 79.7
+      m_RotationRangeMin: {x: 50, y: 5000, z: 60}
+      m_RotationRangeMax: {x: 50, y: 9000, z: 60}
+      m_ScaleRangeMin: {x: 50, y: 50, z: 50}
+      m_ScaleRangeMax: {x: 60, y: 60, z: 60}
+      m_UniformScale: {x: 1, y: 1}
+      m_UniformBool: 0
+      m_XRotationBool: 1
+      m_YRotationBool: 1
+      m_ZRotationBool: 1
+      m_XScaleBool: 1
+      m_YScaleBool: 1
+      m_ZScaleBool: 1
+    name: Bamboo Forest Group
+  - gameObject: {fileID: 1220620254529802, guid: a6f0f518d2392ff43baf5211954e6e08, type: 3}
+    settings:
+      m_Strength: 50
+      m_RotationRangeMin: {x: 0, y: 0, z: 0}
+      m_RotationRangeMax: {x: 0, y: 0, z: 0}
+      m_ScaleRangeMin: {x: 1, y: 1, z: 1}
+      m_ScaleRangeMax: {x: 1, y: 1, z: 1}
+      m_UniformScale: {x: 1, y: 1}
+      m_UniformBool: 1
+      m_XRotationBool: 0
+      m_YRotationBool: 0
+      m_ZRotationBool: 0
+      m_XScaleBool: 0
+      m_YScaleBool: 0
+      m_ZScaleBool: 0
+    name: Bamboo Large Group
