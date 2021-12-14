@@ -112,7 +112,7 @@ MonoBehaviour:
     m_Value: 1
   fixedExposure:
     m_OverrideState: 1
-    m_Value: 2.8
+    m_Value: 1.0257758
   compensation:
     m_OverrideState: 0
     m_Value: 0
@@ -297,21 +297,21 @@ MonoBehaviour:
     m_Value: 1000
     min: 0
   baseHeight:
-    m_OverrideState: 1
-    m_Value: 50
+    m_OverrideState: 0
+    m_Value: 0
   maximumHeight:
     m_OverrideState: 0
     m_Value: 50
   meanFreePath:
     m_OverrideState: 1
-    m_Value: 200
+    m_Value: 80
     min: 1
   enableVolumetricFog:
-    m_OverrideState: 1
-    m_Value: 1
+    m_OverrideState: 0
+    m_Value: 0
   albedo:
     m_OverrideState: 1
-    m_Value: {r: 0.20754719, g: 0.20754719, b: 0.20754719, a: 1}
+    m_Value: {r: 0.023881564, g: 0.023881564, b: 0.047169805, a: 1}
     hdr: 0
     showAlpha: 1
     showEyeDropper: 1
@@ -321,8 +321,8 @@ MonoBehaviour:
     min: 0
     max: 1
   depthExtent:
-    m_OverrideState: 1
-    m_Value: 50
+    m_OverrideState: 0
+    m_Value: 500
     min: 0.1
   denoisingMode:
     m_OverrideState: 0
@@ -375,7 +375,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0d7593b3a9277ac4696b20006c21dde2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  active: 1
+  active: 0
   m_AdvancedMode: 0
   skyType:
     m_OverrideState: 1
